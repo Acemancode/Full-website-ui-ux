@@ -1,0 +1,275 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3, 3, 76, 0.488) 67%,  rgba(3, 3, 76, 0.236) ),url(images/philipp-dusel-zMxhdWSnSiY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+section{
+    height: 70vh;
+    background: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.logo{
+    color: white;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+nav{
+
+}
+nav ul{
+    display: flex;
+    
+}
+
+nav li {
+    margin-right: 40px;
+    /* text-decoration: none; */
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.gh{
+    position: absolute;
+    top: 260px;
+    left: 120px;
+}
+
+h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+ 
+.kl{
+    margin-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+
+}
+
+
+p{
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.hate{
+     margin-top: 50px;
+     /* gap: 40px; */
+}
+
+#yt{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: black;
+   /* border-radius: 20px; */
+   border: 0.2px solid white;
+    font-size: 15px;
+    background: none;
+    font-weight: 600;
+}
+
+#yt:hover{
+    background-color: black;
+    /* color: black; */
+}
+#op{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: black;
+   /* border-radius: 20px; */
+   border: 1px solid white;
+   font-weight: 600;
+   background: none;
+    font-size: 15px;
+    color: white;
+}
+#op:hover{
+    background-color: black;
+    /* color: black; */
+}
+
+
+.services {
+    /* margin-top: 50px; */
+    height: 20vh;
+    /* background-color: white; */
+}
+
+#po{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 90px;
+    margin-top: 150px;
+    color: white;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
+    padding: 0 16px;
+}
+
+.service-card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.service-card p {
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #f8fafc;
+    padding: 34px 32px;
+    border-radius: 12px;
+    margin-top: 30px;
+    height: 30vh;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,76,0.9389005602240896) 67%,  rgba(3,3,76,0.9389005602240896) 67%); */
+}
+
+.contact h2 {
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.contact p {
+    color: #666;
+    margin-bottom: 32px;
+    font-size: 25px;
+}
+
+.btnprimary{
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: 0px;
+    size: 80px;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 0 0 0;
+    margin-top: 90px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    /* max-width: px; */
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.footer-section h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+}
+
+.footer-section ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom p {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
