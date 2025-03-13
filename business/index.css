@@ -106,7 +106,7 @@ p{
 
 #yt a:hover{
     background-color: white;
-    /* color: black; */
+    color: black;
 }
 #op a{
     padding-left: 20px;
@@ -124,7 +124,7 @@ p{
 }
 #op a:hover{
     background-color: white;
-    /* color: black; */
+    color: black;
 }
 
 
